@@ -172,5 +172,7 @@ pip install fastapi uvicorn sqlalchemy sqlite3
 
 ## Ejecución del Proyecto
 ```
+source venv/bin/activate  # En Linux/Mac
+venv\Scripts\activate  # En Windows
 uvicorn app.main:app --reload
 ```
