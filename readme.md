@@ -167,7 +167,7 @@ Esta lógica asegura que los datos críticos no se pierdan o eliminen accidental
 # Sobre el código
 ## Dependencias necesarias
 ```
-pip install fastapi uvicorn pydantic
+pip install fastapi uvicorn sqlalchemy sqlite3
 ```
 
 ## Ejecución del Proyecto
